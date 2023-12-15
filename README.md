@@ -9,23 +9,5 @@ Step By Step nosql dataredis crud simple
 
   ![image](https://github.com/engkoskostaman97/Spring-Data-Redis-CRUD-Example/assets/110719940/44ae89fe-a612-4373-b968-ee012334f6d3)
 
-  tambahkan file model
 
-      package belajar.crud.redis.redis.java.spring.model;
-    
-    import org.springframework.data.annotation.Id;
-    import org.springframework.data.redis.core.RedisHash;
-    import org.springframework.data.redis.core.index.Indexed;
-    import lombok.Data;
-    
-    @Data
-    @RedisHash(value = "student")
-    public class Student {
-    
-        @Id
-        @Indexed
-        private String id;
-        private String name;
-        private String grade;
-    }
-  
+- Test project on Postmant atau yang lainnya 
